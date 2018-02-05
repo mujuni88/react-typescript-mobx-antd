@@ -1,0 +1,1 @@
+export const isUrl = (url: string): boolean => /^(https?:\/\/)/gi.test(url)
